@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8326416897159035190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 340
+    y: 133
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 1-7
+    text: "\u4F60\u53EF\u4EE5\u6839\u64DA\u4F60\u7684\u60F3\u6CD5\u5C07\u9019\u500B\u6A21\u578B\u62FC\u6E4A\u51FA\u4F86\uFF0C\u4F46\u8ACB\u6CE8\u610F!\u5982\u679C<color=orange>\u6392\u5E8F\u6709\u8AA4</color>\uFF0C\u6703\u7522\u751F\u5F88\u56B4\u91CD\u7684\u7D50\u679C\uFF0C\u8ACB\u591A\u52A0\u5C0F\u5FC3\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5389721754942391944}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &-6308070147134944172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 544
+    y: 367
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: 2-2
+    text: "\u4E4B\u5F8C\u91CD\u8907\u52D5\u4F5C\uFF0C\u5C07\u4E0D\u540C\u7684\u677F\u584A\u69CB\u9020\u4F9D\u7167\u559C\u6B61\u7684\u9806\u5E8F\u64FA\u653E\u5230\u6A21\u578B\u6846\u67B6\u4E0A\uFF0C\u7576<color=orange>\u6A21\u578B\u6846\u67B6\u90FD\u88AB\u653E\u5165\u677F\u584A\u69CB\u9020</color>\u5F8C\uFF0C\u6A21\u578B\u4FBF\u5B8C\u6210\u4E86\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -5389721754942391944}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &-5389721754942391944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 337
+    y: 370
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: 2-1
+    text: "\u62FC\u6E4A\u6A21\u578B\u7684\u65B9\u5F0F\u5F88\u7C21\u55AE\uFF0C\u9996\u5148<color=orange>\u6293\u53D6\u5176\u4E2D\u4E00\u500B\u677F\u584A\u69CB\u9020</color>\uFF0C\u5C07\u5176<color=orange>\u653E\u5230\u6A21\u578B\u6846\u67B6\u4E0A</color>\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8326416897159035190}
+  childNode: {fileID: -6308070147134944172}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Scene1-2
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -8326416897159035190}
+  - {fileID: -5389721754942391944}
+  - {fileID: -6308070147134944172}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}

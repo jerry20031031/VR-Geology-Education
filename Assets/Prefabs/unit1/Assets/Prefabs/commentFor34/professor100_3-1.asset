@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8337974092835292007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 288
+    y: 222.6666
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u6676\u9AD4\u6703\u5728\u4E2D\u6D0B\u810A\u9644\u8FD1\u7684\u6D77\u5E95\u51FA\u73FE\uFF0C\u8981\u653E\u5927\u7684\u539F\u56E0\u662F\u56E0\u70BA<color=orange>\u5728\u771F\u6B63\u7684\u6D77\u5E95\u5B83\u975E\u5E38\u5C0F</color>\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2471563608267976198}
+  childNode: {fileID: -7893111768511251125}
+  isExternalFunc: 1
+  externalFunctionName: tal138
+--- !u!114 &-7893111768511251125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 561
+    y: 221.19998
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u5148\u900F\u904E\u5716\u7247\u9810\u6E2C\u4E00\u4E0B\u6D77\u5E95\u6A21\u578B\u65D7\u5B50\u7684\u90E8\u5206\u5427"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8337974092835292007}
+  childNode: {fileID: -5515931791922588301}
+  isExternalFunc: 1
+  externalFunctionName: tal139
+--- !u!114 &-5515931791922588301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 814
+    y: 222.19998
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u5047\u8A2D\u5CA9\u6F3F\u5674\u767C\u5F8C\uFF0C\u5E7E\u5343\u842C\u5E74\u524D\u81F3\u73FE\u5728\uFF0C\u65D7\u5B50\u7684\u4F4D\u7F6E\u662F\u5426\u6703\u6709\u6240\u8B8A\u5316\uFF1F"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -7893111768511251125}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: tal140
+--- !u!114 &-4531841215315299354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -616
+    y: 222.99991
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u65B0\u4F86\u7684\u7814\u7A76\u751F\u4F60ok\u4E86\u55CE\uFF0C\u597D\u7684\u8A71\u6211\u5011\u5C31\u7E7C\u7E8C\u56C9!!!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3174226973726958161}
+  isExternalFunc: 1
+  externalFunctionName: tal135
+--- !u!114 &-2471563608267976198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -8
+    y: 223.6666
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u5169\u6839\u65D7\u5B50\u63D2\u5728\u9760\u8FD1\u5CA9\u6F3F\u6D41\u51FA\u7684\u5169\u5074\uFF0C\u65D7\u5B50\u5E95\u90E8\u662F\u7279\u6B8A\u7BA1\u9053\u653E\u5927\u6578\u5343\u842C\u500D\u7684\u7926\u7269\u6676\u9AD4"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3174226973726958161}
+  childNode: {fileID: -8337974092835292007}
+  isExternalFunc: 1
+  externalFunctionName: tal137
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: professor100_3-1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -4531841215315299354}
+  - {fileID: 3174226973726958161}
+  - {fileID: -2471563608267976198}
+  - {fileID: -8337974092835292007}
+  - {fileID: -7893111768511251125}
+  - {fileID: -5515931791922588301}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &3174226973726958161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -369
+    y: 225.6666
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u9019\u88E1\u662F\u6211\u5011\u7684\u6DF1\u6D77\u5BE6\u9A57\u5BA4\uFF01\u7B49\u7B49\u9019\u500B\u6A21\u64EC\u5E7E\u5343\u842C\u5E74\u524D\u6D77\u5E95\u5CA9\u6F3F\u5674\u767C\u7684\u88DD\u7F6E\u88AB\u7834\u58DE\u4E86"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4531841215315299354}
+  childNode: {fileID: -2471563608267976198}
+  isExternalFunc: 1
+  externalFunctionName: tal136

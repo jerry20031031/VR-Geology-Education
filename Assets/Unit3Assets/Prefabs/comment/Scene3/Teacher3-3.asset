@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4711258227422210692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 236
+    y: 417
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u4F5C\u70BA\u5730\u7403\u79D1\u5B78\u7814\u7A76\u54E1\uFF0C\u5BE6\u5730\u63A2\u67E5\u5FC5\u4E0D\u53EF\u5C11\uFF0C\u7B49\u7B49\u6211\u5011\u5C07\u524D\u5F80\u5CF6\u5DBC\u9032\u884C\u8003\u5BDF"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4996137198911399672}
+  childNode: {fileID: 4313502283367175033}
+  isExternalFunc: 1
+  externalFunctionName: Teacher5_2
+--- !u!114 &-1866848228406498157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1057
+    y: 262
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u6E96\u5099\u597D\u7684\u8A71\uFF0C\u5C31\u5F9E\u5BE6\u9A57\u5BA4\u9580\u53E3\u51FA\u767C\u5427"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 4313502283367175033}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: Teacher5_4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Teacher3-3
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 4996137198911399672}
+  - {fileID: -4711258227422210692}
+  - {fileID: 4313502283367175033}
+  - {fileID: -1866848228406498157}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &4313502283367175033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 585
+    y: 312
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u4F60\u7684\u4EFB\u52D9\u5C31\u662F\u8207\u5176\u4ED6\u7814\u7A76\u4EBA\u54E1\u4E00\u8D77\u63A8\u6E2C\u51FA\u9019\u5EA7\u5CF6\u5DBC\u7684\u5730\u8CEA\u69CB\u9020"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4711258227422210692}
+  childNode: {fileID: -1866848228406498157}
+  isExternalFunc: 1
+  externalFunctionName: Teacher5_3
+--- !u!114 &4996137198911399672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -189
+    y: 231
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u8F9B\u82E6\u4F60\u4E86\uFF0C\u96D6\u7136\u6211\u5F88\u60F3\u9019\u9EBC\u8AAA\uFF0C\u4E0D\u904E\u6700\u5F8C\u9084\u6709\u4E00\u9053\u6E2C\u9A57\u5F97\u5B8C\u6210\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -4711258227422210692}
+  isExternalFunc: 1
+  externalFunctionName: Teacher5_1

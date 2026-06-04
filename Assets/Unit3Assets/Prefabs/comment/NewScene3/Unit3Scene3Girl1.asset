@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-862005439897331341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 359
+    y: 309
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u592A\u68D2\u4E86\uFF0C\u606D\u559C\u901A\u904E\u4E86\u7B2C\u4E8C\u500B\u6E2C\u9A57\uFF0C\u90A3\u9EBC\u8B93\u6211\u4F86\u544A\u8A34\u4F60\u63A5\u4E0B\u4F86\u7684\u6E2C\u9A57\u5427\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 5565974329064534322}
+  isExternalFunc: 1
+  externalFunctionName: Girl14_1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Unit3Scene3Girl1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -862005439897331341}
+  - {fileID: 5565974329064534322}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &5565974329064534322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 778
+    y: 314
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u4E0D\u904E\u5728\u9019\u4E4B\u524D\uFF0C\u8B93\u6211\u5148\u7A0D\u5FAE\u8003\u9A57\u4F60\u4E00\u4E0B\uFF0C\u8ACB\u76E1\u53EF\u80FD\u7684\u56DE\u7B54\u6240\u6709\u554F\u984C"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -862005439897331341}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: Girl14_2

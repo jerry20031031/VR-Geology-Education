@@ -1,0 +1,396 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1351123874997847022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351123874997847023}
+  - component: {fileID: 1351123874997847028}
+  - component: {fileID: 1351123874997847027}
+  - component: {fileID: 1351123874997847026}
+  - component: {fileID: 1351123874997847025}
+  - component: {fileID: 1351123874997847024}
+  m_Layer: 8
+  m_Name: Emitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351123874997847023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123874997847022}
+  m_LocalRotation: {x: -0.24642205, y: -0, z: -0, w: 0.96916264}
+  m_LocalPosition: {x: 0, y: 0.891, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1351123875096502362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -28.532, y: 0, z: 0}
+--- !u!114 &1351123874997847028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123874997847022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c37f4b1f0174c6ebfdf0e7b8af64a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  solverIndices:
+    serializedContents: 
+    m_AlignBytes: 16
+  groupID: 1
+  m_CollisionMaterial: {fileID: 0}
+  m_SurfaceCollisions: 0
+  emitterBlueprint: {fileID: 11400000, guid: 50e3774a559a34e3f9ea74cf7830b4b6, type: 2}
+  filter: -65534
+  emissionMethod: 0
+  minPoolSize: 0.5
+  speed: 2
+  lifespan: 4
+  randomDirection: 0
+  inheritVelocity: 0
+  useShapeColor: 1
+  emitterShapes: []
+--- !u!114 &1351123874997847027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123874997847022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099cf6d70aee642098e249011347b909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pass: {fileID: 11400000, guid: ef3c1e4c0750c4607a9247d004083a32, type: 2}
+--- !u!114 &1351123874997847026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123874997847022}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b45ebbf86be4df6b0e6cd933812af2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fb88690dea2394644849cde5abd037f9, type: 2}
+  renderParameters:
+    layer: 0
+    lightProbeUsage: 1
+    reflectionProbeUsage: 1
+    shadowCastingMode: 1
+    receiveShadows: 1
+    motionVectors: 0
+    renderingLayerMask: 4294967295
+  <particleColor>k__BackingField: {r: 1, g: 1, b: 1, a: 1}
+  <radiusScale>k__BackingField: 2
+--- !u!114 &1351123874997847025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123874997847022}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b741a43af4845478fd8eff354a1510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foamGenerationRate: 50
+  foamPotential: 50
+  foamPotentialDiffusion: 0.95
+  velocityRange: {x: 2, y: 4}
+  vorticityRange: {x: 4, y: 8}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  size: 0.02
+  sizeRandom: 0.2
+  lifetime: 5
+  lifetimeRandom: 0.2
+  buoyancy: 10
+  drag: 0.5
+  atmosphericDrag: 0.5
+  airAging: 2
+  isosurface: 0.02
+  pressure: 1
+  density: 0.3
+  smoothingRadius: 2.5
+  surfaceTension: 2
+--- !u!114 &1351123874997847024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123874997847022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0f9dbc2f19b44f58bd186fa841f61a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emitter: {fileID: 1351123874997847028}
+  color: {r: 0.9490197, g: 0.6901961, b: 0.16470589, a: 1}
+  particleSize: 0.1709976
+  distribution:
+  - position: {x: 0, y: 0, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.1709976, y: 0, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.085498795, y: 0.14808828, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.08549881, y: 0.14808826, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.1709976, y: -0.000000014949086, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.08549879, y: -0.14808828, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.08549879, y: -0.14808828, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.3419952, y: 0, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.2992458, y: 0.16556771, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.18168497, y: 0.28974348, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.018702889, y: 0.3414834, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.14895491, y: 0.3078525, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.279374, y: 0.19725841, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.33994958, y: 0.037349805, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.3155378, y: -0.13189626, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.21224155, y: -0.26816833, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: -0.05588489, y: -0.3373983, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.11444299, y: -0.32227865, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.25616, y: -0.22658943, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - position: {x: 0.33383715, y: -0.07425279, z: 0, w: 0}
+    direction: {x: 0, y: 0, z: 1, w: 0}
+    velocity: {x: 0, y: 0, z: 0, w: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  radius: 0.35
+  edgeEmission: 0
+--- !u!1 &1351123875096502360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351123875096502362}
+  - component: {fileID: 1351123875096502361}
+  m_Layer: 11
+  m_Name: Solver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1351123875096502362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123875096502360}
+  m_LocalRotation: {x: 0.02489098, y: -0.75079566, z: -0.004286196, w: -0.6600515}
+  m_LocalPosition: {x: -925.1, y: 144.1, z: 615}
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1351123874997847023}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.252, y: -262.604, z: -1.819}
+--- !u!114 &1351123875096502361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351123875096502360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d174fab52f0c4b8399f25d5c3ea524c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simulateWhenInvisible: 1
+  m_Backend: 0
+  substeps: 2
+  maxStepsPerFrame: 1
+  synchronization: 0
+  parameters:
+    mode: 0
+    interpolation: 0
+    gravity: {x: 0, y: -6, z: 0}
+    ambientWind: {x: 0, y: 0, z: 0}
+    foamGravityScale: 1
+    damping: 0
+    maxAnisotropy: 3
+    sleepThreshold: 0
+    maxVelocity: 8
+    maxAngularVelocity: 10
+    collisionMargin: 0.001
+    maxDepenetration: 20
+    colliderCCD: 1
+    particleCCD: 0
+    shockPropagation: 0
+    surfaceCollisionIterations: 8
+    surfaceCollisionTolerance: 0.005
+  m_MaxSurfaceChunks: 68000
+  maxQueryResults: 8192
+  maxFoamParticles: 60000
+  maxParticleNeighbors: 128
+  maxParticleContacts: 4
+  gravity: {x: 0, y: -7, z: 0}
+  gravitySpace: 1
+  ambientWind: {x: 0, y: 0, z: 0}
+  windSpace: 1
+  foamSubsteps: 1
+  maxFoamVelocityStretch: 0.3
+  foamFade: {x: 0.05, y: 0.8}
+  foamAccelAgingRange: {x: 0.5, y: 0.8}
+  foamAccelAging: 4
+  worldLinearInertiaScale: 0
+  worldAngularInertiaScale: 0
+  synchronousSpatialQueries: 0
+  distanceConstraintParameters:
+    evaluationOrder: 0
+    iterations: 2
+    SORFactor: 1
+    enabled: 1
+  bendingConstraintParameters:
+    evaluationOrder: 1
+    iterations: 1
+    SORFactor: 1
+    enabled: 0
+  particleCollisionConstraintParameters:
+    evaluationOrder: 0
+    iterations: 1
+    SORFactor: 1
+    enabled: 1
+  particleFrictionConstraintParameters:
+    evaluationOrder: 1
+    iterations: 1
+    SORFactor: 1
+    enabled: 0
+  collisionConstraintParameters:
+    evaluationOrder: 0
+    iterations: 1
+    SORFactor: 1
+    enabled: 1
+  frictionConstraintParameters:
+    evaluationOrder: 1
+    iterations: 1
+    SORFactor: 1
+    enabled: 1
+  skinConstraintParameters:
+    evaluationOrder: 0
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  volumeConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  shapeMatchingConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  tetherConstraintParameters:
+    evaluationOrder: 1
+    iterations: 2
+    SORFactor: 1
+    enabled: 0
+  pinConstraintParameters:
+    evaluationOrder: 1
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  stitchConstraintParameters:
+    evaluationOrder: 1
+    iterations: 2
+    SORFactor: 1
+    enabled: 0
+  densityConstraintParameters:
+    evaluationOrder: 1
+    iterations: 1
+    SORFactor: 1
+    enabled: 1
+  stretchShearConstraintParameters:
+    evaluationOrder: 0
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  bendTwistConstraintParameters:
+    evaluationOrder: 0
+    iterations: 3
+    SORFactor: 1
+    enabled: 0
+  chainConstraintParameters:
+    evaluationOrder: 0
+    iterations: 3
+    SORFactor: 1
+    enabled: 0

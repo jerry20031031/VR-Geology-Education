@@ -1,0 +1,58 @@
+using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
+
+public class LandMaterialScript : MonoBehaviour
+{
+    private XRGrabInteractable grabInteractable;
+    private Renderer aRenderer;
+    private Vector3 originalPosition;
+    public Material landMaterial; // 指定的 Land 材質
+    
+    public Scene2Session s2;
+
+    void Start()
+    {
+        originalPosition = transform.position;
+        grabInteractable = GetComponent<XRGrabInteractable>();
+        aRenderer = GetComponent<Renderer>();
+
+        if (grabInteractable != null)
+        {
+            grabInteractable.onSelectExited.AddListener(OnRelease);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (grabInteractable.isSelected && other.CompareTag("TargetObject"))
+        {
+            Renderer bRenderer = other.GetComponent<Renderer>();
+            if (bRenderer != null)
+            {
+                bRenderer.material = landMaterial;
+                s2.SessionLand();
+                Destroy(gameObject);
+            }
+
+            LineRenderer lineRenderer = other.gameObject.GetComponent<LineRenderer>();
+            if (lineRenderer != null)
+            {
+                lineRenderer.enabled = false;
+            }
+            transform.position = originalPosition;
+        }
+    }
+
+    private void OnRelease(XRBaseInteractor interactor)
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        if (grabInteractable != null)
+        {
+            grabInteractable.onSelectExited.RemoveListener(OnRelease);
+        }
+    }
+}

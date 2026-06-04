@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7566470347700641014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 274
+    y: 213.20001
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u56E0\u70BA\u6676\u9AD4\u5F88\u5C0F\uFF0C\u6211\u5011<color=orange>\u5074\u9375\u9EDE\u64CA</color>\u5927\u9580\u7684\u50B3\u9001\u9EDE\uFF0C\u9032\u5230\u6A21\u578B\u53BB\u89C0\u5BDF\u5427!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2975438002865820355}
+  isExternalFunc: 1
+  externalFunctionName: tal166
+--- !u!114 &-2975438002865820355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 577
+    y: 213.66667
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u5B78\u59CA\u4F60\u5148\u5728\u5BE6\u9A57\u5BA4\u5F85\u8457\uFF0C\u6211\u5148\u8DDF\u7814\u7A76\u751F\u4E00\u8D77\u53BB\u63A2\u7D22~"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -7566470347700641014}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: tal167
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: professor100_4-5-1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -7566470347700641014}
+  - {fileID: -2975438002865820355}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}

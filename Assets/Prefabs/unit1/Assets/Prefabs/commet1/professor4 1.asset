@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1293402435863522635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 173
+    y: 295.66672
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u4F60\u5F9E\u97CB\u683C\u7D0D\u7684\u8A18\u61B6\u627E\u5230\u5927\u9678\u6F02\u79FB\u7684\u904E\u7A0B\u4E86!!!!!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 6174792563804924957}
+  isExternalFunc: 1
+  externalFunctionName: talk30
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: professor4 1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -1293402435863522635}
+  - {fileID: 6174792563804924957}
+  - {fileID: 8682261073456979238}
+  - {fileID: 2095317303677447905}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &2095317303677447905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 937
+    y: 295.66666
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "<color=orange>\u4F46\u6C92\u8FA6\u6CD5\u89E3\u91CB\u63A8\u52D5\u9678\u5730\u7684\u529B\u91CF\u70BA\u4F55!</color>"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8682261073456979238}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: talk33
+--- !u!114 &6174792563804924957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 447
+    y: 296.66672
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u4F60\u771F\u7684\u597D\u68D2!!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1293402435863522635}
+  childNode: {fileID: 8682261073456979238}
+  isExternalFunc: 1
+  externalFunctionName: talk31
+--- !u!114 &8682261073456979238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 714
+    y: 299.66672
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u4F46<color=orange>\u97CB\u683C\u7D0D\u8AAA\u4ED6\u5229\u7528\u53E4\u751F\u7269\u3001\u5730\u8CEA\u69CB\u9020\u7B49\uFF0C\u60F3\u8B49\u660E\u5927\u9678\u66FE\u7D93\u6F02\u79FB</color>"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 6174792563804924957}
+  childNode: {fileID: 2095317303677447905}
+  isExternalFunc: 1
+  externalFunctionName: talk32

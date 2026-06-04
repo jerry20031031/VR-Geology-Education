@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4161763881896010737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1153
+    y: 442
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u6709\u6A5F\u6703\u7684\u8A71\u4F60\u4E00\u5B9A\u8981\u53BB\u770B\u770B\u200B "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 9010619695208907282}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: SupTalk3_4
+--- !u!114 &-2447117757504580359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 459
+    y: 457
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - "\u4F60\u8AAA\u4EBA\u55CE\u200B "
+  - " \u75FE....\u78BA\u5BE6\u5F88\u7F8E"
+  parentSentenceNode: {fileID: 8052271818217603451}
+  childSentenceNodes:
+  - {fileID: 664901723183408263}
+  - {fileID: 9010619695208907282}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: AssistPerson3
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 218782667365687561}
+  - {fileID: 8052271818217603451}
+  - {fileID: -2447117757504580359}
+  - {fileID: 664901723183408263}
+  - {fileID: -4161763881896010737}
+  - {fileID: 9010619695208907282}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &218782667365687561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -136
+    y: 456
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u597D\u719F\u6089~ \u9019\u500B\u756B\u9762\u4E0D\u77E5\u9053\u5728\u54EA\u88E1\u770B\u904E\u200B\u200B\u200B"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8052271818217603451}
+  isExternalFunc: 1
+  externalFunctionName: SupTalk3_1
+--- !u!114 &664901723183408263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 750
+    y: 312
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u4F60\u597D\u50CF\u8AA4\u6703\u4EC0\u9EBC\uFF0C\u6211\u8AAA\u7684\u662F\u666F\u8C61\uFF0C\u4F60\u770B\u9019\u500BU\u578B\uFF0C\u6211\u6C92\u8A18\u932F\u597D\u50CF\u66FE\u5728\u96EA\u5C71\u5C71\u8108\u90A3\u908A\u770B\u904E\u200B\u200B\u200B\u200B\u200B\u200B\u200B "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2447117757504580359}
+  childNode: {fileID: -4161763881896010737}
+  isExternalFunc: 1
+  externalFunctionName: SupTalk3_3
+--- !u!114 &8052271818217603451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 182
+    y: 453
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u5594 \u65B0\u4F86\u7684 \u4F60\u4E0D\u89BA\u5F97\u9019\u756B\u9762\u5F88\u7F8E\u55CE\u200B "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 218782667365687561}
+  childNode: {fileID: -2447117757504580359}
+  isExternalFunc: 1
+  externalFunctionName: SupTalk3_2
+--- !u!114 &9010619695208907282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 759
+    y: 581
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u4F60\u597D\u50CF\u8AA4\u6703\u4EC0\u9EBC\uFF0C\u6211\u8AAA\u7684\u662F\u666F\u8C61\uFF0C\u4F60\u770B\u9019\u500BU\u578B\uFF0C\u6211\u6C92\u8A18\u932F\u597D\u50CF\u66FE\u5728\u96EA\u5C71\u5C71\u8108\u90A3\u908A\u770B\u904E\u200B\u200B\u200B\u200B\u200B\u200B\u200B "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2447117757504580359}
+  childNode: {fileID: -4161763881896010737}
+  isExternalFunc: 1
+  externalFunctionName: SupTalk3_3

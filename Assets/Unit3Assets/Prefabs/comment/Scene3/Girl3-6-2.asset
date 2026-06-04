@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8466819724415975162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 713
+    y: 502
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u597D\u7684\uFF0C\u90A3\u6211\u73FE\u5728\u4F86\u6AA2\u67E5\u4E00\u4E0B\uFF0C\u7A0D\u5FAE\u7B49\u6211\u4E00\u4E0B"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 9066675303590910910}
+  childNode: {fileID: -121296441744706373}
+  isExternalFunc: 1
+  externalFunctionName: Girl23_3
+--- !u!114 &-2084599488957252085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1019
+    y: 200
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: 
+    text: "\u540C\u6642\u4ED4\u7D30\u89C0\u5BDF\u6A21\u578B\u4E0A\u7684\u5730\u5F62\u69CB\u9020"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1104499382693158593}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: NewGirl23_2
+--- !u!114 &-1104499382693158593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 742
+    y: 233
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "\u53EF\u4EE5\u63A2\u67E5\u7279\u5FB5\u7269\u4EF6\u6216\u8A31\u80FD\u5E6B\u52A9\u4F60\u4EC0\u9EBC"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 9066675303590910910}
+  childNode: {fileID: -2084599488957252085}
+  isExternalFunc: 1
+  externalFunctionName: Girl23_2
+--- !u!114 &-121296441744706373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 969
+    y: 513
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: 
+    text: "\u597D\u50CF\u6709\u4E9B\u5730\u65B9\u4E0D\u592A\u5C0D\uFF0C\u4F60\u5728\u78BA\u8A8D\u4E00\u4E0B\u5427 "
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8466819724415975162}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: Girl23_4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Girl3-6-2
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 6215420252006554052}
+  - {fileID: 9066675303590910910}
+  - {fileID: -8466819724415975162}
+  - {fileID: -1104499382693158593}
+  - {fileID: -121296441744706373}
+  - {fileID: -2084599488957252085}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &6215420252006554052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 109
+    y: 412
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u5B78\u59CA"
+    text: "\u78BA\u5B9A\u597D\u4E86\u55CE"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 9066675303590910910}
+  isExternalFunc: 1
+  externalFunctionName: Girl23_1
+--- !u!114 &9066675303590910910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 415
+    y: 404
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - "\u6211\u9700\u8981\u63D0\u793A"
+  - "\u6069 \u6211\u78BA\u5B9A\u597D\u4E86"
+  parentSentenceNode: {fileID: 6215420252006554052}
+  childSentenceNodes:
+  - {fileID: -1104499382693158593}
+  - {fileID: -8466819724415975162}

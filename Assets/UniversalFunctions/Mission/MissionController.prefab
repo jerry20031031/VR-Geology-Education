@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4279788252920158503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3516811409643405264}
+  - component: {fileID: 6755159148882301798}
+  - component: {fileID: 6230282432474244754}
+  m_Layer: 0
+  m_Name: MissionController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3516811409643405264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4279788252920158503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 104.40083, y: 2.1440225, z: 80.563835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6755159148882301798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4279788252920158503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1506d8c95f9fc81439b208741663ec4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MissionPanel: []
+  missionText: []
+  missionText_ForHistory_V5: []
+  CheckTimes: 0
+  mOneCheck: 0
+  mOneComplete: 0
+  mTwoCheck: 0
+  mTwoComplete: 0
+  mThreeCheck: 0
+  mThreeComplete: 0
+  missionManagerTalk: 0
+  mFourCheck: 0
+  mFourComplete: 0
+  mFiveCheck: 0
+  mFiveComplete: 0
+  SetHistoryV5_missionText: 0
+  timeDuration: 3
+--- !u!114 &6230282432474244754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4279788252920158503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05300d51f0be26c4cbddeeb73b59abee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JustTalk_Time: 
+  playerList:
+    players: []

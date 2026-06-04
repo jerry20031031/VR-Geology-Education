@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8807978137373199868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -200
+    y: 332
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u5148\u6B61\u8FCE\u60A8\u9032\u4F86\u6211\u5011\u5BE6\u9A57\u5BA4\u3002\u8A71\u8AAA\u60A8\u77E5\u9053<color=orange>\u97CB\u683C\u7D0D</color>\u55CE?"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 3182143505305957702}
+  isExternalFunc: 1
+  externalFunctionName: talk7
+--- !u!114 &-7119147430006256945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 624
+    y: 166.66667
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u97CB\u683C\u7D0D\u8A8D\u70BA\u5728\u5169\u5104\u5E74\u524D\u539F\u59CB\u5927\u9678\u53EA\u6709\u4E00\u584A\u540D\u70BA<color=orange>\u76E4\u53E4\u5927\u9678</color>"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 7867208803123530606}
+  childNode: {fileID: -221682488886598684}
+  isExternalFunc: 1
+  externalFunctionName: talk9
+--- !u!114 &-221682488886598684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 883
+    y: 325.6667
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u6211\u900F\u904E\u6642\u7A7A\u96FB\u8A71\u8207\u97CB\u683C\u7D0D\u7814\u7A76\u76E4\u53E4\u5927\u9678\uFF0C\u4F46\u8AC7\u5230\u4E00\u534A\u96FB\u8A71\u7A81\u7136\u4E2D\u65B7\u4E86"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8214948758208414366}
+  childNode: {fileID: 3975230599093051768}
+  isExternalFunc: 1
+  externalFunctionName: talk11
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: professor1 1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -8807978137373199868}
+  - {fileID: 3182143505305957702}
+  - {fileID: 7867208803123530606}
+  - {fileID: 8485602899248664482}
+  - {fileID: -7119147430006256945}
+  - {fileID: 8214948758208414366}
+  - {fileID: -221682488886598684}
+  - {fileID: 3975230599093051768}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &3182143505305957702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 69
+    y: 325.6667
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - "\u77E5\u9053"
+  - "\u4E0D\u77E5\u9053"
+  parentSentenceNode: {fileID: 8485602899248664482}
+  childSentenceNodes:
+  - {fileID: 7867208803123530606}
+  - {fileID: 8485602899248664482}
+--- !u!114 &3975230599093051768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1165
+    y: 325.6667
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u73FE\u5728\u53EA\u77E5\u9053\u975E\u6D32\u7684\u4F4D\u7F6E\uFF0C\u4E14\u76EE\u524D\u628A\u5404\u5927\u9678\u96A8\u6A5F\u6392\u653E\u5728\u4E0B\u65B9!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -221682488886598684}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: talk12
+--- !u!114 &7867208803123530606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 352
+    y: 171.6667
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u54C7\u60A8\u7ADF\u7136\u77E5\u9053\uFF0C\u6211\u9084\u662F\u4F86\u89E3\u91CB\u4E00\u4E0B\u5427"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3182143505305957702}
+  childNode: {fileID: -7119147430006256945}
+  isExternalFunc: 1
+  externalFunctionName: talk8
+--- !u!114 &8214948758208414366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 636
+    y: 458.66663
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u97CB\u683C\u7D0D\u8A8D\u70BA\u5728\u5169\u5104\u5E74\u524D\u539F\u59CB\u5927\u9678\u53EA\u6709\u4E00\u584A\u540D\u70BA<color=orange>\u76E4\u53E4\u5927\u9678</color>"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 8485602899248664482}
+  childNode: {fileID: -221682488886598684}
+  isExternalFunc: 1
+  externalFunctionName: talk9
+--- !u!114 &8485602899248664482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 335
+    y: 449.66675
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "\u6559\u6388"
+    text: "\u65E2\u7136\u60A8\u4E0D\u77E5\u9053\uFF0C\u90A3\u6211\u4F86\u89E3\u91CB\u4E00\u4E0B!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 3182143505305957702}
+  childNode: {fileID: 8214948758208414366}
+  isExternalFunc: 1
+  externalFunctionName: talk10

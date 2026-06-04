@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8204256260568557876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 463
+    y: 378
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 1-5
+    text: "\u4F46\u9019\u500B\u6A21\u578B\u4ECD\u5728\u958B\u767C\u968E\u6BB5\uFF0C\u56E0\u6B64\u9700\u8981\u4F60\u4F86\u5E6B\u52A9\u6211\u5011\u5B8C\u6210\u5B83\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2834523820676487747}
+  childNode: {fileID: -4548622327442755380}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &-4548622327442755380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 672
+    y: 377
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 1-6
+    text: "\u4F60\u53EF\u4EE5\u770B\u5230\u9019\u88E1\u6709\u4E09\u7A2E\u4E0D\u540C\u7684\u6A21\u578B\u5206\u985E\uFF0C\u5206\u5225<color=orange>\u6293\u53D6</color>\u9019\u4E9B\u69CB\u9020\uFF0C\u4F86\u89C0\u5BDF\u5B83\u5011\u7684\u4E0D\u540C\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -8204256260568557876}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &-4509593359370664807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 678
+    y: 69
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 1-2
+    text: "\u96D6\u7136\u4F60\u5728\u4F86\u7684\u8DEF\u4E0A\u53EF\u80FD\u6709\u807D\u8AAA\u904E\u4ECA\u5929\u7684\u59D4\u8A17\u5167\u5BB9\u4E86\uFF0C\u4F46\u8ACB\u5BB9\u6211\u518D\u5411\u4F60\u8AAA\u660E\u4E00\u6B21\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2834523820676487747}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &-2834523820676487747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 460
+    y: 225
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 1-3
+    text: "\u9996\u5148\uFF0C\u4E0D\u77E5\u4F60\u662F\u5426\u807D\u8AAA\u904E<color=orange>\u677F\u584A\u904B\u52D5</color>"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -4509593359370664807}
+  childNode: {fileID: 1122128062604173414}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &-1046496671972065282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 458
+    y: 69
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 1-1
+    text: "\u4F60\u597D\uFF0C\u7814\u7A76\u54E1\uFF0C\u6B61\u8FCE\u4F86\u5230\u677F\u584A\u5BE6\u9A57\u5BA4\u3002\u60F3\u5FC5\u4F60\u662F\u63A5\u6536\u5230\u4E86\u5B78\u9662\u7684\u59D4\u8A17\uFF0C\u524D\u4F86\u5354\u52A9\u6211\u5011\u5BE6\u9A57\u5BA4\u5C0D\u5427!"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -4509593359370664807}
+  isExternalFunc: 1
+  externalFunctionName: Talk
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Scene1-1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -1046496671972065282}
+  - {fileID: -4509593359370664807}
+  - {fileID: -2834523820676487747}
+  - {fileID: 1122128062604173414}
+  - {fileID: -8204256260568557876}
+  - {fileID: -4548622327442755380}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1122128062604173414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 679
+    y: 217
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 1-4
+    text: "\u6211\u5011\u4ECA\u5929\u8981\u505A\u7684\u6A21\u578B\u4FBF\u662F\u80FD\u5920<color=orange>\u6A21\u64EC\u677F\u584A\u904B\u52D5</color>\u7684\u677F\u584A\u69CB\u9020\u6A21\u578B\u3002"
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -2834523820676487747}
+  childNode: {fileID: -8204256260568557876}
+  isExternalFunc: 1
+  externalFunctionName: Talk
